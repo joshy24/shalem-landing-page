@@ -3,9 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  div.badge {
-    display: none !important;
-  }
   
   html {
     scroll-behavior: smooth;
@@ -43,7 +40,5 @@
 
 
 @layer components {
-  div.badge {
-    display: none !important;
-  }
+  
 }
