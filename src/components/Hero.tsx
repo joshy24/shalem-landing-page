@@ -39,7 +39,7 @@ export default function Hero() {
               Apply for Mentorship
             </a>
             <a
-              href="https://wa.me/2347040950917"
+              href="https://wa.me/2349038452437"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-[#0A1446] px-8 py-4 rounded-lg text-base font-medium hover:bg-gray-50 transition-all duration-300 flex items-center justify-center gap-2 w-full sm:w-auto border border-white/20"

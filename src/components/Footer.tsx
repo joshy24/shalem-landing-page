@@ -23,7 +23,7 @@ export default function Footer() {
           <div className="md:text-right">
             <p className="text-white/70 mb-3 text-sm">Get in touch</p>
             <a
-              href="https://wa.me/2347040950917"
+              href="https://wa.me/2349038452437"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-white hover:text-[#2E8B57] transition-colors duration-300"
