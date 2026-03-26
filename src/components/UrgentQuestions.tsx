@@ -57,7 +57,7 @@ export default function UrgentQuestions() {
             className="inline-flex items-center gap-2 bg-white text-[#2E8B57] px-8 py-4 rounded-lg text-base font-medium hover:bg-gray-50 transition-all duration-300 shadow-lg hover:shadow-xl"
           >
             <MessageCircle className="w-5 h-5" />
-            Talk To Us Now!
+            Ask Us A Question Now!
           </a>
         </div>
       </div>

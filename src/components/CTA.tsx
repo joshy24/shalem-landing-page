@@ -27,7 +27,7 @@ export default function CTA() {
             className="bg-white text-[#0A1446] px-8 py-4 rounded-lg text-base font-medium hover:bg-gray-50 transition-all duration-300 flex items-center justify-center gap-2 w-full sm:w-auto"
           >
             <MessageCircle className="w-5 h-5" />
-            Talk To Us Now!
+            Ask Us A Question Now!
           </a>
         </div>
       </div>
