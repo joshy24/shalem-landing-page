@@ -1,4 +1,4 @@
-import { MessageCircle } from 'lucide-react';
+import { MessageCircle, UserPlus } from 'lucide-react';
 
 export default function CTA() {
   return (
@@ -17,7 +17,8 @@ export default function CTA() {
             href="https://forms.gle/75qqxQjGcgcWA51E9"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#2E8B57] text-white px-8 py-4 rounded-lg text-base font-medium hover:bg-[#267347] transition-all duration-300 shadow-lg hover:shadow-xl w-full sm:w-auto">
+            className="bg-[#2E8B57] text-white px-8 py-4 rounded-lg text-base font-medium hover:bg-[#267347] transition-all duration-300 shadow-lg hover:shadow-xl w-full sm:w-auto flex items-center justify-center gap-2">
+            <UserPlus className="w-5 h-5" />
             Apply for Mentorship
           </a>
           <a
