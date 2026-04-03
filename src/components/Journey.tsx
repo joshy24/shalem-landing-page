@@ -79,7 +79,7 @@ export default function Journey() {
               href="https://wa.me/2349038452437"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#0A1446] text-[#FFFFFF] px-8 py-4 rounded-lg text-base font-medium hover:bg-gray-50 transition-all duration-300 flex items-center justify-center gap-2 w-full sm:w-auto"
+              className="bg-[#0A1446] text-[#FFFFFF] px-8 py-4 rounded-lg text-base font-medium transition-all duration-300 flex items-center justify-center gap-2 w-full sm:w-auto"
             >
               <MessageCircle className="w-5 h-5" />
               Ask Us A Question
