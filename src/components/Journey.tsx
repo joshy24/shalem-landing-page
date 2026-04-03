@@ -62,6 +62,17 @@ export default function Journey() {
             </div>
           ))}
         </div>
+
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-12">
+            <a 
+              href="https://forms.gle/75qqxQjGcgcWA51E9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#2E8B57] text-white px-16 py-4 rounded-lg text-base font-medium hover:bg-[#267347] transition-all duration-300 shadow-lg hover:shadow-xl w-full sm:w-auto">
+              Get started
+            </a>
+        </div>
+
       </div>
     </section>
   );
