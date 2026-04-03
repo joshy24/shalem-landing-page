@@ -27,7 +27,7 @@ export default function Journey() {
   ];
 
   return (
-    <section id="journey" className="py-20 md:py-28 bg-[#FAFAFA]">
+    <section id="journey" className="py-20 md:py-28 bg-gradient-to-b from-[#FAFAFA] to-[#F0F9F6]">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0A1446] mb-6">
@@ -43,9 +43,12 @@ export default function Journey() {
           {phases.map((phase, index) => (
             <div
               key={index}
-              className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg hover:border-[#2E8B57]/30 transition-all duration-300"
+              className="bg-white border-2 border-[#2E8B57] rounded-xl p-8 hover:shadow-lg hover:border-[#267347] transition-all duration-300"
             >
               <div className="flex items-center gap-3 mb-4">
+                <div className="w-8 h-8 bg-[#2E8B57] rounded-full flex items-center justify-center">
+                  <span className="text-xs font-bold text-white">{index + 1}</span>
+                </div>
                 <span className="text-sm font-semibold text-[#2E8B57] uppercase tracking-wide">
                   {phase.weeks}
                 </span>

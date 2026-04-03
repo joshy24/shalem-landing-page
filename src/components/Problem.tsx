@@ -8,10 +8,24 @@ export default function Problem() {
     'Facing transitions without clear direction',
   ];
 
+  const categories = [
+    'Education or What to Study',
+    'Relationships (Marriage, Friendships, Family, Business)',
+    'Relationship with God/Faith/Spirituality',
+    'Finance/Career/Business',
+    'Depression and Mental Health',
+    'My Life\'s Purpose',
+    'Family Issues',
+    'Habits and Addictions',
+    'Sex',
+    'Understanding Womanhood',
+    'Understanding Manhood',
+  ];
+
   return (
-    <section className="py-20 md:py-28 bg-white">
+    <section className="py-20 md:py-28 bg-gradient-to-b from-white to-[#F0F9F6]">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
-        <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+        <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center mb-16">
           <div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0A1446] mb-6 leading-tight">
               You Don't Have to Figure Everything Out Alone
@@ -31,6 +45,42 @@ export default function Problem() {
             ))}
           </div>
         </div>
+
+        <div className="border-t border-[#2E8B57]/20 pt-16">
+          <div className="text-center mb-12">
+            <h3 className="text-3xl md:text-4xl font-bold text-[#0A1446] mb-4">
+              Mentorship Categories
+            </h3>
+            <p className="text-lg text-[#6B7280] max-w-3xl mx-auto leading-relaxed">
+              Whether you're navigating education, relationships, faith, finances, mental health, or personal growth, we have experienced mentors ready to guide you through every area of life.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {categories.map((category, index) => (
+              <div
+                key={index}
+                className="bg-white border-2 border-[#2E8B57] rounded-lg p-6 hover:shadow-md transition-shadow duration-300 hover:border-[#267347]"
+              >
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-[#2E8B57] rounded-full mt-2 flex-shrink-0" />
+                  <p className="text-[#0A1446] font-medium text-base">{category}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-12">
+            <a 
+              href="https://forms.gle/75qqxQjGcgcWA51E9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#2E8B57] text-white px-16 py-4 rounded-lg text-base font-medium hover:bg-[#267347] transition-all duration-300 shadow-lg hover:shadow-xl w-full sm:w-auto">
+              Get started
+            </a>
+        </div>
+
       </div>
     </section>
   );
