@@ -1,3 +1,5 @@
+import { MessageCircle, UserPlus } from "lucide-react";
+
 export default function Journey() {
   const phases = [
     {
@@ -63,13 +65,24 @@ export default function Journey() {
           ))}
         </div>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-12">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-20">
             <a 
               href="https://forms.gle/75qqxQjGcgcWA51E9"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#2E8B57] text-white px-16 py-4 rounded-lg text-base font-medium hover:bg-[#267347] transition-all duration-300 shadow-lg hover:shadow-xl w-full sm:w-auto">
+              className="bg-[#2E8B57] text-white px-14 py-4 rounded-lg text-base font-medium hover:bg-[#267347] transition-all duration-300 shadow-lg hover:shadow-xl w-full sm:w-auto flex items-center justify-center gap-2">
+              <UserPlus className="w-5 h-5" />
               Get started
+            </a>
+
+            <a
+              href="https://wa.me/2349038452437"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#0A1446] text-[#FFFFFF] px-8 py-4 rounded-lg text-base font-medium hover:bg-gray-50 transition-all duration-300 flex items-center justify-center gap-2 w-full sm:w-auto"
+            >
+              <MessageCircle className="w-5 h-5" />
+              Ask Us A Question
             </a>
         </div>
 
