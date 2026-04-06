@@ -26,7 +26,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-lg md:text-xl text-white/80 mb-10 max-w-3xl mx-auto leading-relaxed">
-            Connect with trusted Christian mentors who guide you with wisdom,
+            Connect with trusted Christian mentors who guide you with the Power of God, wisdom,
             experience, and truth through a structured mentorship journey.
           </p>
 
