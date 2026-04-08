@@ -14,7 +14,7 @@ export default function Problem() {
     'Relationship with God/Faith/Spirituality',
     'Finance/Career/Business',
     'Depression and Mental Health',
-    'My Life\'s Purpose',
+    'My Life Purpose',
     'Family Issues',
     'Habits and Addictions',
     'Sex',
