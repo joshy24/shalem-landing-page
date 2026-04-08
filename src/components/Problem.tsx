@@ -18,6 +18,8 @@ export default function Problem() {
     'Family Issues',
     'Habits and Addictions',
     'Sex',
+    'Self Esteem and Self Worth',
+    'Past Trauma and Unforgiveness',
     'Understanding Womanhood',
     'Understanding Manhood',
   ];
