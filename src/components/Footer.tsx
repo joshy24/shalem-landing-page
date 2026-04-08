@@ -16,7 +16,7 @@ export default function Footer() {
             </div>
             <p className="text-white/70 leading-relaxed max-w-md">
               Connecting believers with trusted Christian mentors for guidance,
-              clarity, and transformation through structured 8-week journeys.
+              clarity, and transformation through structured 4 to 8 week journeys.
             </p>
           </div>
 

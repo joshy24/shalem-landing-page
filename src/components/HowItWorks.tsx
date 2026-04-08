@@ -15,7 +15,7 @@ export default function HowItWorks() {
     {
       icon: Lightbulb,
       title: 'Begin Your Journey',
-      description: 'Start your 8-week mentorship with clarity and purpose.',
+      description: 'Start your 4 to 8 week mentorship with clarity and purpose.',
     },
   ];
 
