@@ -1,0 +1,160 @@
+[
+    {
+      "id": "1",
+      "name": "Education / What to Study",
+      "order": 1,
+      "use_cases": [
+        "A student unsure whether to study Medicine, Law, or Tech",
+        "Someone who chose a course but feels it’s the wrong path",
+        "A graduate confused about next steps (Masters, skill, or work)",
+        "A young person pressured by family to study something they don’t want",
+        "Someone seeking God’s direction before choosing a field"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Relationships (Marriage, Friendship, Family, Business)",
+      "order": 2,
+      "use_cases": [
+        "Someone unsure if they should continue or end a relationship",
+        "A person struggling with toxic friendships",
+        "A couple facing constant misunderstandings",
+        "A Christian navigating dating intentionally for marriage",
+        "Business partners dealing with conflict or trust issues",
+        "Conflict among genuine christians"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Relationship with God / Faith / Spirituality",
+      "order": 3,
+      "use_cases": [
+        "Someone who feels distant from God",
+        "A believer struggling with consistency in prayer or devotion",
+        "A new Christian trying to grow spiritually",
+        "Someone dealing with doubt or confusion about faith or religion",
+        "A person seeking to hear God’s direction clearly"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Finance / Career / Business",
+      "order": 4,
+      "use_cases": [
+        "Someone confused about career direction",
+        "A professional feeling stuck or unfulfilled at work",
+        "An entrepreneur unsure how to build or grow a business",
+        "Someone struggling with financial discipline or debt",
+        "A believer trying to align career decisions with God’s will"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Depression and Mental Health",
+      "order": 5,
+      "use_cases": [
+        "Someone dealing with persistent sadness or emptiness",
+        "A person feeling overwhelmed and mentally drained",
+        "Someone struggling with anxiety about life or the future",
+        "A believer questioning why they feel this way despite faith",
+        "Someone needing support, encouragement, and structure"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "My Life Purpose",
+      "order": 6,
+      "use_cases": [
+        "Someone asking: What am I really meant to do?",
+        "A person feeling lost despite being active or busy",
+        "Someone who wants to align their life with God’s calling",
+        "A professional questioning if they are in the right path",
+        "Someone seeking clarity on purpose and direction"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Self-Esteem and Self-Worth",
+      "order": 7,
+      "use_cases": [
+        "Someone who constantly feels not good enough",
+        "A person comparing themselves to others",
+        "Someone dealing with rejection or failure",
+        "A believer struggling to understand their identity in Christ",
+        "Someone lacking confidence to step into opportunities"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Family Issues",
+      "order": 8,
+      "use_cases": [
+        "Conflict between parents and children",
+        "Someone dealing with a difficult or controlling parent",
+        "Sibling conflicts or long-standing tension",
+        "A person navigating family expectations vs personal calling",
+        "Someone dealing with family instability or pressure"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Habits and Addictions",
+      "order": 9,
+      "use_cases": [
+        "Struggling with pornography",
+        "Social media or phone addiction",
+        "Lack of discipline in daily routines",
+        "Procrastination affecting growth",
+        "Repeated patterns they want to break but can’t"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Sex",
+      "order": 10,
+      "use_cases": [
+        "A Christian struggling with sexual purity",
+        "Someone dealing with sexual temptation",
+        "Confusion around boundaries in relationships",
+        "Someone seeking healing from past sexual experiences",
+        "Questions about sex within a godly framework"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Understanding Womanhood",
+      "order": 11,
+      "use_cases": [
+        "A young woman trying to understand her identity and role",
+        "Navigating femininity in a modern world",
+        "Preparing for marriage and future family life",
+        "Dealing with societal pressure vs godly values",
+        "Understanding purpose as a woman in Christ"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Understanding Manhood",
+      "order": 12,
+      "use_cases": [
+        "A young man trying to understand what it means to be a man",
+        "Struggling with responsibility, discipline, and leadership",
+        "Preparing for marriage and provision",
+        "Overcoming passivity or confusion about direction",
+        "Aligning masculinity with godly principles"
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Trauma and Unforgiveness",
+      "order": 13,
+      "use_cases": [
+        "A victim of abuse (physical, emotional, or sexual)",
+        "Someone hurt deeply by family or close relationships",
+        "Betrayal from a friend or partner",
+        "Struggling to forgive someone who caused serious pain",
+        "Carrying resentment, anger, or past wounds"
+      ]
+    }
+  ]
+  

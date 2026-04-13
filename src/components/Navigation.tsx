@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -29,7 +31,7 @@ export default function Navigation() {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <div className="flex-shrink-0 flex items-center gap-3">
+          <Link to="/" className="flex-shrink-0 flex items-center gap-3 hover:opacity-80 transition-opacity">
             <img
               src="/shalem_logo.png"
               alt="Shalem Logo"
@@ -44,25 +46,37 @@ export default function Navigation() {
             >
               Shalem
             </span>
-          </div>
+          </Link>
 
           <div className="hidden md:flex items-center space-x-8">
-            <button
-              onClick={() => scrollToSection('how-it-works')}
+            {location.pathname === '/' || location.pathname === '/categories' ? (
+              <>
+                <button
+                  onClick={() => scrollToSection('how-it-works')}
+                  className={`text-sm font-medium transition-colors duration-300 hover:text-[#2E8B57] ${
+                    isScrolled ? 'text-[#6B7280]' : 'text-white/90'
+                  }`}
+                >
+                  How It Works
+                </button>
+                <button
+                  onClick={() => scrollToSection('journey')}
+                  className={`text-sm font-medium transition-colors duration-300 hover:text-[#2E8B57] ${
+                    isScrolled ? 'text-[#6B7280]' : 'text-white/90'
+                  }`}
+                >
+                  Journey
+                </button>
+              </>
+            ) : null}
+            <Link
+              to="/categories"
               className={`text-sm font-medium transition-colors duration-300 hover:text-[#2E8B57] ${
                 isScrolled ? 'text-[#6B7280]' : 'text-white/90'
               }`}
             >
-              How It Works
-            </button>
-            <button
-              onClick={() => scrollToSection('journey')}
-              className={`text-sm font-medium transition-colors duration-300 hover:text-[#2E8B57] ${
-                isScrolled ? 'text-[#6B7280]' : 'text-white/90'
-              }`}
-            >
-              Journey
-            </button>
+              Categories
+            </Link>
             <a
               href="https://forms.gle/75qqxQjGcgcWA51E9"
               target="_blank"
