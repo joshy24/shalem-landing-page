@@ -87,7 +87,7 @@ export default function CategoriesPage() {
               Ways We Can Help
             </h1>
             <p className="text-lg text-white/90 max-w-2xl mx-auto">
-              Explore life categories where our mentors provide thoughtful guidance and support
+              Explore life categories where our mentors provide God driven guidance and support
             </p>
           </div>
 
