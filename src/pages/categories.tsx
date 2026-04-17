@@ -152,20 +152,12 @@ export default function CategoriesPage() {
 
                   <div className="flex gap-4">
                     <a
-                      href="https://wa.me/2347040950917"
+                      href="https://forms.gle/75qqxQjGcgcWA51E9"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex-1 py-4 rounded-lg font-semibold text-center transition-all duration-200 shadow-lg hover:shadow-xl bg-[#2E8B57] text-white hover:opacity-90"
                     >
-                      Get Help Now
-                    </a>
-                    <a
-                      href="https://forms.gle/75qqxQjGcgcWA51E9"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex-1 py-4 rounded-lg font-semibold text-center transition-all duration-200 border-2 border-[#0A1446] text-[#0A1446] hover:bg-[#0A1446]/5"
-                    >
-                      Learn More
+                      Get Started Now
                     </a>
                   </div>
                 </div>
