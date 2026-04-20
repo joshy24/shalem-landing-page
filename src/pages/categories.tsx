@@ -40,6 +40,7 @@ const categoryIcons: Record<number, React.ReactNode> = {
   11: <Sparkles className="w-8 h-8" />,
   12: <Shield className="w-8 h-8" />,
   13: <AlertCircle className="w-8 h-8" />,
+  14: <Heart className="w-8 h-8" />,
 };
 
 const categoryColors: Record<number, { bg: string; text: string; accent: string }> = {
@@ -56,6 +57,7 @@ const categoryColors: Record<number, { bg: string; text: string; accent: string 
   11: { bg: 'from-pink-50 to-rose-50', text: 'text-pink-900', accent: 'text-pink-600' },
   12: { bg: 'from-slate-50 to-gray-50', text: 'text-slate-900', accent: 'text-slate-600' },
   13: { bg: 'from-amber-50 to-orange-50', text: 'text-amber-900', accent: 'text-amber-600' },
+  14: { bg: 'from-rose-50 to-pink-50', text: 'text-rose-900', accent: 'text-rose-600' },
 };
 
 export default function CategoriesPage() {
