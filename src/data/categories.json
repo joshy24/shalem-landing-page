@@ -13,7 +13,7 @@
     },
     {
       "id": "2",
-      "name": "Relationships (Marriage, Friendship, Family, Business)",
+      "name": "Navigating Relationships (Friendship, Family, Church, Business)",
       "order": 2,
       "use_cases": [
         "Someone unsure if they should continue or end a relationship",
@@ -154,6 +154,25 @@
         "Betrayal from a friend or partner",
         "Struggling to forgive someone who caused serious pain",
         "Carrying resentment, anger, or past wounds"
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Marriage, Dating and Courtship",
+      "order": 14,
+      "use_cases": [
+        "Someone unsure if they should enter or commit to a relationship",
+        "A person questioning if their current partner is right for marriage",
+        "Struggling with boundaries in a dating relationship",
+        "A couple facing recurring misunderstandings or conflict",
+        "Someone preparing intentionally for marriage but unsure where to start",
+        "A person dealing with pressure to get married from family or society",
+        "Someone recovering from a breakup and seeking clarity moving forward",
+        "A believer trying to date in a way that aligns with their faith",
+        "Engaged couples seeking guidance before marriage",
+        "Someone dealing with red flags but unsure whether to stay or leave",
+        "A person struggling with emotional attachment or dependency in relationships",
+        "Someone seeking healing from past relationship experiences before dating again"
       ]
     }
   ]
