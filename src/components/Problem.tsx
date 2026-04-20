@@ -10,9 +10,10 @@ export default function Problem() {
 
   const categories = [
     'Education or What to Study',
-    'Relationships (Marriage, Friendships, Family, Business)',
+    'Navigating Relationships (Friendships, Family, Church, Business)',
     'Relationship with God/Faith/Spirituality',
     'Finance/Career/Business',
+    'Marriage, Dating and Courtship',
     'Depression and Mental Health',
     'My Life Purpose',
     'Family Issues',
